@@ -6,13 +6,12 @@ var BabelPlugin = require("babel-webpack-plugin");
 var StaticSiteGeneratorPlugin = require('static-render-webpack-plugin');
 
 const VENDOR_LIBS = [
-  'react', 
+  'react',  
   'lodash', 
   'redux', 
   'react-redux', 
   'react-router',
-  'redux-thunk',
-  'material-ui',
+  'redux-thunk'
 ];
 
 
