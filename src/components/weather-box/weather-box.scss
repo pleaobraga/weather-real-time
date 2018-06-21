@@ -2,4 +2,85 @@
     width: 280px;
     border: 1px solid #ebebeb;
     border-radius: 3px;
+
+    .location {
+        color: #737c84;
+        text-align: center;
+        border-bottom: 1px solid #ebebeb;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    .temperature {
+        color: #737c84;
+        display: flex;
+        justify-content: center;
+        font-size: 70px;
+        height: 130px;
+        align-items: center;
+
+        sup {
+            font-size: 25px;
+            bottom: 14px;
+            position: relative;
+        
+        }
+
+        &.orange {
+            color: #ff9632;
+        }
+
+        &.blue {
+            color: #69a3ff;
+        }
+
+        &.red {
+            color: #ed1946;
+        }
+    }
+
+    .detais-wrapper {
+        border-top: 1px solid #ebebeb;
+        background: #f1f1f1;
+        opacity: 50%;
+
+        .info-wrapper {
+            display: flex;
+            justify-content: space-between;
+
+            .info-detail {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0;
+
+                .property{
+                    color: #b4b4b4;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    margin-bottom: 3px;
+                }
+
+                .value {
+                    color: #737c84;
+                }
+
+                .unity {
+                    font-size: 10px;
+                }
+
+            }
+        }
+
+        .update-time {
+            text-align: center;
+            color: #b4b4b4;
+            font-size: 10px;
+            padding-bottom: 10px;
+        }
+
+    }
+
 }

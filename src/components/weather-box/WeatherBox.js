@@ -9,18 +9,18 @@ const WeatherBox = props => {
                 Urubici,BR
             </div>
             <div className="weather-information" >
-                <div className="temperature" >
-                    19
+                <div className="temperature orange " >
+                    19<sup>o</sup>
                 </div>
                 <div className="detais-wrapper" >
                     <div className="info-wrapper" >
                         <div className="info-detail" >
-                            Humidity
-                            75%
+                            <span className="property" >Humidity</span>
+                            <span className="value" >75<span className="unity" >%</span></span>
                         </div>
                         <div className="info-detail" >
-                            Pressure
-                            892hPa
+                            <span className="property" >Pressure</span>
+                            <span className="value" >892<span className="unity" >hPa</span></span>
                         </div>
                     </div>
                     <div className="update-time" >
